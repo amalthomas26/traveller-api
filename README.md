@@ -29,40 +29,39 @@ A production-grade backend API for a travel management application. Built with *
 ## 📂 Project Structure
 
 traveller-api/
-├── dist/                   # Compiled JavaScript output
-├── src/
-│   ├── config/
-│   │   └── db.ts           # Database connection logic
-│   ├── controllers/
-│   │   ├── authController.ts
-│   │   └── tripController.ts
-│   ├── middlewares/
-│   │   ├── auth.ts         # JWT validation middleware
-│   │   └── errorHandler.ts # Global error handler
-│   ├── models/
-│   │   ├── auth.ts         # User schema
-│   │   └── trip.ts         # Trip schema
-│   ├── routes/
-│   │   ├── auth.ts
-│   │   ├── health.ts
-│   │   └── trip.ts
-│   ├── utils/
-│   │   ├── ApiError.ts     # Custom error class
-│   │   └── logger.ts       # Winston/Morgan logger
-│   ├── app.ts              # Express app setup
-│   └── server.ts           # Entry point
-├── tests/                  # Test suites
-├── types/                  # Custom type definitions
-├── .dockerignore
-├── .env                    # Environment variables
-├── .env.docker             # Docker specific env vars
-├── .gitignore
-├── docker-compose.yml
-├── Dockerfile
-├── package.json
-├── tsconfig.json
-└── README.md
-
+dist/ # Compiled JavaScript output
+src/
+config/
+db.ts # Database connection logic
+controllers/
+authController.ts
+tripController.ts
+middlewares/
+auth.ts # JWT validation middleware
+errorHandler.ts # Global error handler
+models/
+auth.ts # User schema
+trip.ts # Trip schema
+routes/
+auth.ts
+health.ts
+trip.ts
+utils/
+ApiError.ts # Custom error class
+logger.ts # Logger
+app.ts # Express app setup
+server.ts # Entry point
+tests/ # Test suites
+types/ # Custom type definitions
+.dockerignore
+.env
+.env.docker
+.gitignore
+docker-compose.yml
+Dockerfile
+package.json
+tsconfig.json
+README.md
 
 
 
