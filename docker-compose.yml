@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: traveller-api
+    ports:
+      - "4000:4000"
+    env_file:
+      - .env.docker
+    restart: always
