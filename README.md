@@ -32,10 +32,7 @@ traveller-api/
 ├── dist/   # Compiled JavaScript output
 
 ├── src/
-
-│   ├── config/
-
-│   │   └── db.ts           # Database connection logic
+│   │           
 │   ├── controllers/
 │   │   ├── authController.ts
 │   │   └── tripController.ts
